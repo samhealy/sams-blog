@@ -16,7 +16,6 @@ h2 {
 }
 
 .col-md-3 {
-	background-color: pink;
 	float: left;
 	position: relative;
 }
@@ -25,7 +24,7 @@ h2 {
 	float: right;
 	position: relative;
 	margin-left: 15%;
-	margin-top: -8%;
+	margin-top: -9.5%;
 	width: 85%;
 }
 
