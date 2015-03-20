@@ -1,0 +1,40 @@
+body {
+	background-image: url(../img/1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1 {
+	font-family: "Megrim", cursive;
+	text-align: center;
+	font-size: 4em;
+	padding: 15px;
+}
+
+h2 {
+	font-family: "Megrim", cursive;
+}
+
+.col-md-3 {
+	background-color: pink;
+	float: left;
+	position: relative;
+}
+
+.col-md-9 {
+	float: right;
+	position: relative;
+	margin-left: 15%;
+	margin-top: -8%;
+	width: 85%;
+}
+
+.container {
+	margin: 3% auto 3% auto;
+	background-color: white;
+	border-radius: 1%;
+}
+
+.row {
+	margin: 15px;
+}

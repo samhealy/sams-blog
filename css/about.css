@@ -1,7 +1,5 @@
-/*Play with different image layouts accross screen sizes*/
-
 body {
-	background-image: url(../img/2.png);
+	background-image: url(../img/4.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -14,13 +12,9 @@ h1 {
 }
 
 img {
-	width: 300px;
-	height: 300px;
-	margin-bottom: 5px;
-}
-
-img:hover {
-	opacity: 0.7;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 .container {
@@ -29,7 +23,6 @@ img:hover {
 	border-radius: 1%;
 }
 
-.row {
-	margin: auto;
-	margin-left: 1.75%;
+div div {
+	margin: 20px;
 }

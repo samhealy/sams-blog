@@ -5,38 +5,42 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" href="js/boostrap.min.js"></script>
-	<!-- jQuery goes here -->
-	<script type="text/javascript" href="js/app.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
 
 	<div class="main-wrapper">
-		<a href="index.html">
-			<div class="example" style="background-image: url(img/3.png)">
-				Samantha Healy
-			</div>
-		</a>
+		<div id="nav-sidebar">
+		<!-- Right side of each navigation menu will show up on left side of screen forming a column
+		On click, the selected menu will slide accross the screen until it touches the end
+		If clicking a collapsed sidebar item and another item is expanded, the expanded item will slide back to collapsed state -->
 
-		<a href="portfolio.html">
-			<div class="example" style="background-image: url(img/2.png)">
-				Portfolio
-			</div>
-		</a>
+			<a href="index.html">
+				<div id="indexSidebar" class="interactiveSidebar" style="background-image: url(img/3.png)">
+					Samantha Healy
+				</div>
+			</a>
 
-		<a href="about.html">
-			<div class="example" style="background-image: url(img/4.png)">
-				About
-			</div>
-		</a>
+			<a href="portfolio.html">
+				<div id="portfolioSidebar" class="interactiveSidebar" style="background-image: url(img/2.png)">
+					Portfolio
+				</div>
+			</a>
 
-		<a href="blog.html">
-			<div class="example" style="background-image: url(img/1.png)">
-				Blog
-			</div>
-		</a>
+			<a href="about.html">
+				<div id="aboutSidebar" class="interactiveSidebar" style="background-image: url(img/4.png)">
+					About
+				</div>
+			</a>
+
+			<a href="blog.html">
+				<div id="blogSidebar" class="interactiveSidebar" style="background-image: url(img/1.png)">
+					Blog
+				</div>
+			</a>
+		</div>
 	</div>
-
 </body>
 </html>
 
