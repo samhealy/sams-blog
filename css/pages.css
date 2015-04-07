@@ -1,0 +1,29 @@
+#portfolio-container .row {
+	margin: auto;
+	margin-left: 1.75%;
+}
+
+#about-img {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#about-container div {
+	margin: 3%;
+}
+
+.left {
+	float: left;
+	background-color: white;
+	width: 20%;
+	height: 500px;
+}
+
+.right {
+	float: right;
+	background-color: white;
+	width: 80%;
+	height: 500px;
+	margin-bottom: 3%;
+}
