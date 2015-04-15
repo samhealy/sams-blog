@@ -1,16 +1,24 @@
+#index-sidebar {
+	cursor: default;
+}
+
 #portfolio-container .row {
-	margin: auto;
-	margin-left: 1.75%;
+	margin-left: 1.5%;
 }
 
 #about-img {
-	width: 50%;
-	margin-left: 25%;
-	margin-right: 25%;
+	width: 35%;
+	height: 35%;
+	margin-left: 32%;
+	margin-right: 32%;
 }
 
 #about-container div {
 	margin: 3%;
+}
+
+#about-container h2 {
+	text-align: center;
 }
 
 .left {
@@ -26,4 +34,8 @@
 	width: 80%;
 	height: 500px;
 	margin-bottom: 3%;
+}
+
+.right p {
+	margin-right: 5%;
 }

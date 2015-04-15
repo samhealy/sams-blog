@@ -32,6 +32,7 @@ body {
 	line-height: 150px;
 	font-weight: bolder;
 	position: relative;
+	cursor: pointer;
 }
 
 .interactive-sidebar:hover {
@@ -46,7 +47,6 @@ body {
 	width: 75%;
 	margin: 3%;
 	background-color: white;
-	border-radius: 1%;
 	display: none;
 }
 
@@ -59,6 +59,10 @@ h1 {
 
 h2 {
 	font-family: "Megrim", cursive;
+}
+
+p {
+	font-size: 1.25em;
 }
 
 img {

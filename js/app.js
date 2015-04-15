@@ -20,21 +20,22 @@ $(document).ready(function() {
 				left: "0%"
 			}, 1000, function() {$(".page-container").css("display", "none");});
 			navigationFullscreen = true;
+			$("#index-sidebar").css("cursor", "default");
 		}
-		if (this.id === 'portfolio-sidebar') {
-			$(".page-container").css("display", "none")
-			$("#portfolio-container").css("display", "block");
+		else if (this.id === 'portfolio-sidebar' || this.id === 'about-sidebar' || this.id === 'blog-sidebar') {
+			$(".page-container").css("display", "none");
+			if (this.id === 'portfolio-sidebar') {
+				$("#portfolio-container").css("display", "block");
+			
+			}
+			else if (this.id === "about-sidebar") {
+				$("#about-container").css("display", "block");
+			}
+			else if (this.id === "blog-sidebar") {
+				$("#blog-container").css("display", "block");
+			}
 			animateSidebarRight();
-		}
-		else if (this.id === "about-sidebar") {
-			$(".page-container").css("display", "none")
-			$("#about-container").css("display", "block");
-			animateSidebarRight();
-		}
-		else if (this.id === "blog-sidebar") {
-			$(".page-container").css("display", "none")
-			$("#blog-container").css("display", "block");
-			animateSidebarRight();
+			$("#index-sidebar").css("cursor", "pointer");
 		}
 	});
 
@@ -42,6 +43,7 @@ $(document).ready(function() {
 	$('.interactive-sidebar').mouseenter(function() {
 		if (this.id === "index-sidebar" && !navigationFullscreen){
 			$(this).animate({left: "0%"}, 1000);
+			$("#portfolio-container", "#about-container", "#blog-container").css("display", "none");
 		}	
 		else if (this.id === "portfolio-sidebar" && navigationFullscreen){
 			$("#portfolio-container").fadeIn("fast").css("display", "block");
